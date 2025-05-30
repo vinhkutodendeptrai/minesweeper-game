@@ -1,2 +1,0 @@
-# minesweeper-game
-final project
