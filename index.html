@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css">
+</head>
+<body>
+    <h1>Mines: <span id="mines-count">0</span></h1>
+    <div id="board"></div>
+    <br>
+    <button id="undo-button">Undo</button>
+    <script src="minesweeper.js"></script>
+    <div id="game-over-modal" class="modal hidden">
+    <div class="modal-content">
+        <h2>💥 Game Over 💥</h2>
+        <button id="undo-modal-btn">Take a step back</button>
+        <button id="retry-btn">Try Again</button>
+    </div>
+</div>
+</body>
+</html>
